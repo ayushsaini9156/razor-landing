@@ -4,7 +4,7 @@ import AnnouncementBanner from './components/AnnouncementBanner';
 import Hero from './components/Hero';
 import HeroActionBar from './components/HeroActionBar';
 
-// Lazy load below-the-fold components
+// Lazy load below-the-fold components for better performance
 const Features = lazy(() => import('./components/Features'));
 const IndustryShowcase = lazy(() => import('./components/IndustryShowcase'));
 const Highlights = lazy(() => import('./components/Highlights'));

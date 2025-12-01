@@ -1,69 +1,183 @@
-# Razorpay Landing Page Clone
+# Razorpay Landing Page
 
-This project is a modern, polished landing page inspired by Razorpay's design aesthetics, built with React, Vite, and Tailwind CSS. It focuses on delivering a responsive, accessible, and visually appealing user interface with smooth micro-interactions.
+A modern, production-ready landing page inspired by Razorpay's design, built with React 18, Vite, and Tailwind CSS. Features a fully responsive design with dark mode support, smooth animations, and optimized performance.
 
-## Design Rationale
+## ✨ Features
 
-The design aims for a sleek, dark-themed interface utilizing a sophisticated color palette of deep indigos, accents of cyan, and subtle gradients. Typography is handled with the "Inter" font for optimal readability. The layout is mobile-first, ensuring a seamless experience across all devices with carefully implemented Tailwind CSS breakpoints. Micro-interactions and subtle animations are integrated to enhance user engagement and provide a dynamic feel. Accessibility has been a core consideration, with semantic HTML, `alt` texts, keyboard focus states, and `aria` attributes for interactive elements.
+- 🎨 **Modern UI/UX** - Clean design with blue-indigo-purple gradient theme
+- 🌓 **Dark Mode** - Seamless light/dark theme switching with localStorage persistence
+- 📱 **Fully Responsive** - Mobile-first design optimized for all screen sizes
+- ⚡ **Performance Optimized** - Lazy loading, code splitting, and production builds
+- 🎭 **Smooth Animations** - Custom keyframe animations and transitions
+- ♿ **Accessible** - Semantic HTML, ARIA labels, keyboard navigation
+- 🔧 **Developer Friendly** - Clean code structure, component-based architecture
 
-## Tech Stack
+## 🛠️ Tech Stack
 
--   **React**: For building the user interface with functional components.
--   **Vite**: As a fast development build tool.
--   **Tailwind CSS**: For utility-first styling and responsive design.
--   **Plain JavaScript**: No TypeScript used.
--   **Google Font Inter**: Imported via `globals.css` for typography.
--   **Inline SVGs**: For icons to ensure crispness and easy styling.
+- **React 18** - Modern React with hooks and Suspense
+- **Vite 4** - Lightning-fast build tool and dev server
+- **Tailwind CSS 3.4** - Utility-first CSS framework
+- **PostCSS** - CSS transformations and optimizations
+- **ESLint** - Code quality and consistency
+- **Google Fonts** - Inter font family for typography
 
-## Setup Steps
+## 📦 Components
 
-To get this project up and running locally, follow these steps:
+- Hero section with carousel and POS mockup
+- Announcement banner
+- Action bar with multiple CTAs
+- Company logos marquee
+- Product features showcase
+- Industry-specific solutions
+- Product highlights grid
+- Developer documentation section
+- Startup perks banner
+- Comprehensive footer with newsletter
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd razorpay-landing
-    ```
-    (Replace `<repository-url>` with the actual URL if this were a GitHub repo).
+## 🚀 Quick Start
 
-2.  **Install dependencies:**
-    Navigate to the project root directory in your terminal and run:
-    ```bash
-    npm install
-    ```
-    This will install all the necessary React, Vite, Tailwind CSS, PostCSS, and Autoprefixer packages.
+### Prerequisites
 
-3.  **Run the development server:**
-    Once the dependencies are installed, start the development server:
-    ```bash
-    npm run dev
-    ```
-    This will typically start the application on `http://localhost:5173` (or another available port). Open this URL in your browser to see the landing page.
+- Node.js 16+ and npm/yarn/pnpm
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+1. **Clone the repository**
+```bash
+git clone https://github.com/ayushsaini9156/razor-landing.git
+cd razor-landing
+```
 
--   `npm run dev`: Starts the development server with hot-reloading.
--   `npm run build`: Builds the app for production to the `dist` folder.
--   `npm run preview`: Serves the `dist` folder locally for production preview.
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-## Deployment Tips
+3. **Start development server**
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project can be easily deployed to various static site hosting services.
+### Build for Production
 
-### Vercel
+```bash
+npm run build
+```
+The optimized production build will be in the `dist` folder.
 
-1.  Sign up for a Vercel account (if you don't have one).
-2.  Install the Vercel CLI: `npm i -g vercel`
-3.  From your project directory, run `vercel`.
-4.  Follow the prompts to link your project and deploy. Vercel will automatically detect Vite and configure the build process.
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📜 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with hot reload |
+| `npm run build` | Create optimized production build |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint for code quality checks |
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ayushsaini9156/razor-landing)
+
+Or manually:
+```bash
+npm i -g vercel
+vercel
+```
 
 ### Netlify
 
-1.  Sign up for a Netlify account (if you don't have one).
-2.  Connect your Git repository (GitHub, GitLab, Bitbucket) to Netlify.
-3.  Configure your build settings:
-    -   **Build command**: `npm run build`
-    -   **Publish directory**: `dist`
-4.  Netlify will automatically build and deploy your site.
+1. Push your code to GitHub
+2. Connect repository to Netlify
+3. Configure build settings:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+4. Deploy!
+
+### GitHub Pages
+
+```bash
+npm run build
+# Deploy dist folder to gh-pages branch
+```
+
+## 📁 Project Structure
+
+```
+razor-landing/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # React components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── IndustryShowcase.jsx
+│   │   ├── Highlights.jsx
+│   │   ├── DeveloperSection.jsx
+│   │   ├── MovingHeadlines.jsx
+│   │   ├── StartupPerks.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx          # Main app component
+│   ├── main.jsx         # App entry point
+│   └── index.css        # Global styles
+├── index.html           # HTML template
+├── tailwind.config.js   # Tailwind configuration
+├── vite.config.js       # Vite configuration
+└── package.json         # Dependencies
+```
+
+## ⚡ Performance Optimizations
+
+- **Code Splitting** - Lazy loading for below-the-fold components
+- **Tree Shaking** - Removes unused code in production
+- **Minification** - Terser for JavaScript, CSS minification
+- **Chunk Optimization** - Vendor chunks for better caching
+- **Image Optimization** - Modern formats and lazy loading
+- **Font Optimization** - Preloaded Inter font family
+
+## 🎨 Customization
+
+### Theme Colors
+
+Edit `tailwind.config.js`:
+```javascript
+theme: {
+  extend: {
+    colors: {
+      'razor-primary': '#2563EB',
+      'razor-accent': '#818CF8',
+    }
+  }
+}
+```
+
+### Dark Mode
+
+Theme is managed via `localStorage` with system preference detection. Toggle implementation in `Navbar.jsx`.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Ayush Saini**
+- GitHub: [@ayushsaini9156](https://github.com/ayushsaini9156)
+
+## 🙏 Acknowledgments
+
+- Design inspiration from [Razorpay](https://razorpay.com)
+- Icons and imagery from [Unsplash](https://unsplash.com)
+- Built with ❤️ using React and Tailwind CSS

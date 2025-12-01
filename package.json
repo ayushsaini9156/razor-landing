@@ -1,12 +1,30 @@
 {
   "name": "razorpay-landing",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Modern Razorpay-inspired landing page built with React, Vite, and Tailwind CSS",
+  "author": "Ayush Saini <ayushsaini9156@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushsaini9156/razor-landing.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwind",
+    "landing-page",
+    "razorpay",
+    "payment-gateway",
+    "dark-mode",
+    "responsive"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -75,11 +75,9 @@ const Navbar = memo(() => {
     if (newIsDark) {
       htmlElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
-      console.log('Dark mode activated');
     } else {
       htmlElement.classList.remove('dark');
       localStorage.setItem('theme', 'light');
-      console.log('Light mode activated');
     }
   };
 

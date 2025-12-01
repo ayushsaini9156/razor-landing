@@ -1,0 +1,13 @@
+<!-- Placeholder SVG for product-invoice.png -->
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#DBEAFE"/>
+  <rect x="100" y="50" width="200" height="200" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="120" y="70" width="80" height="12" rx="4" fill="#E5E7EB"/>
+  <rect x="120" y="95" width="160" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="120" y="110" width="140" height="6" rx="3" fill="#E5E7EB"/>
+  <rect x="120" y="125" width="120" height="6" rx="3" fill="#E5E7EB"/>
+  <line x1="120" y1="150" x2="280" y2="150" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="120" y="165" width="160" height="8" rx="4" fill="#3B82F6" opacity="0.3"/>
+  <rect x="120" y="185" width="120" height="8" rx="4" fill="#3B82F6" opacity="0.3"/>
+  <text x="200" y="280" font-family="Arial" font-size="14" fill="#6B7280" text-anchor="middle">Invoice</text>
+</svg>

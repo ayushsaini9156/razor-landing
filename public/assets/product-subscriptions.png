@@ -1,0 +1,11 @@
+<!-- Placeholder SVG for product-subscriptions.png -->
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#DBEAFE"/>
+  <rect x="100" y="60" width="200" height="180" rx="8" fill="white"/>
+  <circle cx="200" cy="110" r="25" stroke="#3B82F6" stroke-width="3" fill="none"/>
+  <path d="M200 95 L200 110 L210 110" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  <rect x="130" y="150" width="140" height="8" rx="4" fill="#E5E7EB"/>
+  <rect x="130" y="170" width="100" height="8" rx="4" fill="#E5E7EB"/>
+  <rect x="130" y="190" width="120" height="8" rx="4" fill="#E5E7EB"/>
+  <text x="200" y="270" font-family="Arial" font-size="14" fill="#6B7280" text-anchor="middle">Subscriptions</text>
+</svg>

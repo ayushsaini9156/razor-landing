@@ -1,0 +1,12 @@
+<!-- Placeholder SVG for hero-dashboard-md.png -->
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F3F4F6"/>
+  <rect x="75" y="75" width="1050" height="750" rx="12" fill="white"/>
+  <rect x="105" y="105" width="300" height="45" rx="6" fill="#E5E7EB"/>
+  <rect x="105" y="180" width="990" height="300" rx="6" fill="#EEF2FF"/>
+  <circle cx="600" cy="330" r="60" fill="#3B82F6" opacity="0.2"/>
+  <rect x="105" y="510" width="300" height="225" rx="6" fill="#DBEAFE"/>
+  <rect x="435" y="510" width="300" height="225" rx="6" fill="#DBEAFE"/>
+  <rect x="765" y="510" width="330" height="225" rx="6" fill="#DBEAFE"/>
+  <text x="600" y="450" font-family="Arial" font-size="36" fill="#6B7280" text-anchor="middle">Payment Dashboard</text>
+</svg>
