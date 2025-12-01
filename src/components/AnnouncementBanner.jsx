@@ -35,9 +35,6 @@ const AnnouncementBanner = memo(() => {
                 </div>
               ))}
             </div>
-            <button className="bg-blue-600 text-white px-4 md:px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors duration-200 text-sm whitespace-nowrap shadow-md hover:shadow-lg">
-              Sign Up Now
-            </button>
           </div>
         </div>
       </div>
