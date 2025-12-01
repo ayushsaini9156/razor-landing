@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Razorpay Landing Page
+=======
+# Razorpay Landing Page 
+>>>>>>> 6825ce80fe3a7e5d1e6235cc33fd1bf5931a5cee
 
 A modern, production-ready landing page inspired by Razorpay's design, built with React 18, Vite, and Tailwind CSS. Features a fully responsive design with dark mode support, smooth animations, and optimized performance.
 
