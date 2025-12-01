@@ -1,4 +1,4 @@
-# Razorpay Landing Page Clone
+# Razorpay Landing Page 
 
 This project is a modern, polished landing page inspired by Razorpay's design aesthetics, built with React, Vite, and Tailwind CSS. It focuses on delivering a responsive, accessible, and visually appealing user interface with smooth micro-interactions.
 
